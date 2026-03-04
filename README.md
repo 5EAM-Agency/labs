@@ -1,6 +1,6 @@
-# starship-uninstall
+# Remove Starshipt
 
-A lightweight Python utility to fully remove [Starship](https://starship.rs) from a Linux system — including its binary, config files, cache, and shell init hooks.
+A lightweight Python utility to fully remove [Starship](https://starship.rs) from a Linux system including its binary, config files, cache, and shell init hooks.
 
 ---
 
@@ -35,7 +35,7 @@ Running this script will:
 ## Usage
 
 ```bash
-sudo python3 starship_uninstall.py
+sudo python3 remove-starshipt.py
 ```
 
 > The script uses `SUDO_USER` to correctly resolve the home directory of the invoking user, so running with `sudo` is required — not optional.
